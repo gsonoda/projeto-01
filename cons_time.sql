@@ -1,3 +1,4 @@
+-- CONSULTA TEMPO DOS ARQUIVOS
 select to_char(fim, 'dd/mm/yyyy hh24:mi:ss') as fim
      , to_char(inicio, 'dd/mm/yyyy hh24:mi:ss') as inicio
   from tb_teste_tempo;
